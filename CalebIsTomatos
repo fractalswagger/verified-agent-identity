@@ -1,9 +1,9 @@
-name: CalebIsTomatos
+name: Verify Human Identity
 
 on:
   workflow_dispatch:
     inputs:
-      agent_name:CalebIsTomatos
+      agent_name:'CalebIsTomatos'
         description: 'Kopi77'
         required: true
         default: 'Kopi77'
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "finder", "description": "finder AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Kopi77", "description": "Kopi77 AI Agent"}'
